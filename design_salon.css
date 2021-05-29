@@ -1,0 +1,31 @@
+.myButton {
+    background-color: #303836;
+    border-radius: 9px;
+    border: 1px solid #303836;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Montserrat Light;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #161a1a;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
