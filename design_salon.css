@@ -1,10 +1,10 @@
 .myButton {
-    background-color: #303836;
+    background-color: #ffffff;
     border-radius: 9px;
     border: 1px solid #303836;
     display: inline-block;
     cursor: pointer;
-    color: #ffffff;
+    color: #303836;
     font-family: Montserrat Light;
     font-size: 15px;
     font-weight: bold;
@@ -20,6 +20,8 @@
     position: relative;
     top: 1px;
 }
+
+.button1 {width: 100%;}
 
 .center {
     margin: 0;
