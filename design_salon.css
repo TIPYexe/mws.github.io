@@ -5,15 +5,16 @@
     display: inline-block;
     cursor: pointer;
     color: #303836;
-    font-family: Montserrat Light;
-    font-size: 15px;
+    font-family: Montserrat Medium;
+    font-size: 2vh;
     font-weight: bold;
-    padding: 11px 23px;
+    padding: 1.2vh 2.4vh;
     text-decoration: none;
 }
 
 .myButton:hover {
-    background-color: #161a1a;
+    background-color: #4a4b4b;
+    color: #ffffff;
 }
 
 .myButton:active {
@@ -21,12 +22,41 @@
     top: 1px;
 }
 
-.button1 {width: 100%;}
+.social_media {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 0% 0%;
+    border-radius: 25%;
+    width: 5vh;
+}
+
+.social_media:hover {
+    background-color: #4a4b4b;
+}
+
+.social_media:active {
+    position: relative;
+    top: 1px;
+}
+
+.button1 {
+    width: 100%;
+}
 
 .center {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 80.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center2 {
+    
+    position: absolute;
+    top: 92.5%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);

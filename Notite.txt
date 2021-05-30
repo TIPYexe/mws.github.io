@@ -1,2 +1,17 @@
 max-height-button = 8.1936%
+max-width-button = 44.53%
 telefon-height = 9.4025%
+
+.myButton {
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 1px solid #303836;
+    display: inline-block;
+    cursor: pointer;
+    color: #303836;
+    font-family: Montserrat Light;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+}
