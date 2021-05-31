@@ -1,6 +1,6 @@
 .myButton {
     background-color: #ffffff;
-    border-radius: 9px;
+    border-radius: 0.6vh;
     border: 1px solid #303836;
     display: inline-block;
     cursor: pointer;
@@ -29,8 +29,8 @@
     padding: 0% 0%;
     border-radius: 25%;
     width: 5vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .social_media:hover {
@@ -47,8 +47,9 @@
 }
 
 .center {
-    position: absolute;
-    top: 80.5%;
+    width: 90vw;
+    position:absolute;
+    top: 80.7%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -59,3 +60,9 @@
     float:left;
 }
 
+.block {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
