@@ -14,39 +14,49 @@
 </head>
 
 
-<div class="btn_group block center">
-    <div class="btn">
-        <div class="inner">
-            <button id="facebook" class="social_media">
-                <input type="image" src="facebook.png" width="100%" />
-                <script type="text/javascript">
-                    document.getElementById("facebook").onclick = function () {
-                        location.href = "https://bit.ly/34xBaz9";
-                    };
-                </script>
-            </button>
-        </div>
+<div class="btn_group center">
+    <div class="btn_row_1 ">
 
-        <div class="inner">
-            <button id="programare" href="#" class="myButton button1">
-                <a>PROGRAMEAZA-TE</a>
-                <script type="text/javascript">
-                    document.getElementById("programare").onclick = function () {
-                        location.href = "https://bit.ly/3yQILa4";
-                    };
-                </script>
-            </button>
-        </div>
+        <button id="programare" href="#" class="myButton button1">
+            <a>PROGRAMEAZA-TE</a>
+            <script type="text/javascript">
+                document.getElementById("programare").onclick = function () {
+                    location.href = "https://bit.ly/3yQILa4";
+                };
+            </script>
+        </button>
 
-        <div class="inner">
-            <button id="instagram" class="social_media">
-                <input type="image" src="instagram.png" width="100%" />
-                <script type="text/javascript">
-                    document.getElementById("instagram").onclick = function () {
-                        location.href = "https://bit.ly/3i6mUWk";
-                    };
-                </script>
-            </button>
+
+        <div class="btn_row_2">
+            <div class="block">
+                <button id="facebook" class="social_media">
+                    <input type="image" src="facebook.png" width="100%" />
+                    <script type="text/javascript">
+                        document.getElementById("facebook").onclick = function () {
+                            location.href = "https://bit.ly/34xBaz9";
+                        };
+                    </script>
+                </button>
+
+
+                <div itemscope itemtype="https://schema.org/LocalBusiness">
+                    <button id="phone-call" class="social_media">
+                        <input type="image" src="phone-call.png" width="100%" />
+                        <span itemprop="telephone">
+                            <a href="tel:+40749202682"></a>
+                        </span>
+                    </button>
+                </div>
+
+                <button id="instagram" class="social_media">
+                    <input type="image" src="instagram.png" width="100%" />
+                    <script type="text/javascript">
+                        document.getElementById("instagram").onclick = function () {
+                            location.href = "https://bit.ly/3i6mUWk";
+                        };
+                    </script>
+                </button>
+            </div>
         </div>
     </div>
 </div>
