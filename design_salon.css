@@ -45,7 +45,6 @@
 }
 
 .center {
-    margin: 0;
     position: absolute;
     top: 80.5%;
     left: 50%;
@@ -54,7 +53,6 @@
 }
 
 .center2 {
-    
     position: absolute;
     top: 92.5%;
     left: 50%;
